@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #75b79e;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+}
+
+section {
+  padding: 5%;
+}
+
+img.rounded-corners {
+  border-radius: 15px;
+}
+
+h1, h3 {
+  font-weight: bolder;
+}
+
+hr {
+  color: white;
+  background-color: white;
+}
+
+.contact:hover {
+  opacity: 0.7;
+}
+
+.contact {
+  color: #333333;
+}
+
+.projects {
+  text-align: left;
+}
+
+.skills {
+  font-weight: bolder;
+}
+
+#introduction {
+}
+
+#projects {
+  background-color: white;
+}
+
+#skills {
+    line-height: 1;
+}
+
+#contact {
+  background-color: white;
+}

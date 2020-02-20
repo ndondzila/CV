@@ -1,64 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Nicholas' Personal Site</title>
-    </head>
 
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td><img src="Nick D.jpeg" alt="Nicholas profile picture"/></td>
-                <td>
-                    <h1>Nicholas Dondzila</h1>
-                    <p><strong>Entry Level Software Developer</strong></p>
-                    <p>I am a competetive weightlifter as well as an active coach in the sport.  I love video games and cats.</p>
-                    <p><a href= "mailto:ndondzila@gmail.com">ndondzila@gmail.com</a></p></td>
-            </tr>
-            
-        </table>
-        
-        <hr>
-        <h3>Work Experience</h3>
-        <table cellspacing="10">
-            <thead>
-                <th>Dates</th>
-                <th>Role</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2018 - Present</td>
-                    <td>IT Contractor for Kieva</td>
-                </tr>
-                <tr>
-                    <td>2016 - Present</td>
-                    <td>Remote/Online Coach in the sport of weightlifting</td>
-                </tr>
-            </tbody>
-            
-        </table>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="CSS/styles.CSS" />
+  <link rel="icon" href="MajoraFavicon.ico" />
+  <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
 
-        <hr>
+  <title>Dondzila - Resume</title>
+</head>
 
-        <h3>Technical Skills</h3>
-        <table>
-            <tr>
-                <td>Java</td>
-            </tr>
-            <tr>
-                <td>HTML/CSS</td>
-            </tr>
-            <tr>
-                <td>MySQL</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-            </tr>
-            <tr>
-                <td>Google Drive</td>
-            </tr>
-        </table>
-    
-    </body>
+<body>
+  <section id="introduction">
+    <div class="row">
+      <div class="col-lg-8">
+        <br />
+        <br />
+        <h1>Nicholas Dondzila</h1>
+        <h4>Entry Level Software Developer</h4>
+        <hr />
+        <p>I am a competetive weightlifter as well as an active coach in the sport. I love video games and cats.</p>
+
+      </div>
+      <div class="col-lg-4">
+        <img src="Nick D.jpeg" alt="Nicholas profile picture" class="rounded-corners" />
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="https://image.flaticon.com/icons/svg/1383/1383403.svg" width="250" height="175" alt="Coding icon" />
+        <br />
+        <br />
+        <h1>Projects</h1>
+      </div>
+      <div class="col-lg-9 projects">
+        <div>
+          <h2>USAW Qualification Checker</h2>
+          <p>
+            Designed a Spring Boot web application for individuals to check their level of competitiveness in the sport of weightlifting. This Java-based application used Hibernate and Thymleaf to dynamically populate page elements from a MySQL
+            database. Front-end used Bootstrap frameworked HTML/CSS and included JavaScript elements.  Initially deployed via Pivotal Services prior to account trial ending.
+          </p>
+        </div>
+        <div>
+          <a href="https://ndondzila.github.io/WeightliftingTraining/"><h2>Coaching Webpage</h2></a>
+          <p>
+            Created a webpage to market services as a weightlifting coach.  Page utilizes Bootstrap framework to nicely exhibit coaching services.  Currently deployed on GitHub Pages.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="https://image.flaticon.com/icons/svg/1341/1341864.svg" width="150" height="150" alt="Skills icon" />
+        <br />
+        <br />
+        <h1>Skills</h1>
+      </div>
+      <div class="col-lg-3 projects">
+        <h3>Programming Languages (years)</h3>
+        <hr />
+        <p>Java (2)</p>
+        <p>HTML/CSS (2)</p>
+        <p>Python (2)</p>
+        <p>MySQL (2)</p>
+        <p>JavaScript (2)</p>
+      </div>
+      <div class="col-lg-3 projects">
+        <h3>Frameworks/Tools</h3>
+        <hr />
+        <p>Bootstrap</p>
+        <p>Spring MVC</p>
+        <p>Hibernate</p>
+        <p>Thymeleaf</p>
+        <p>Microsoft Office</p>
+        <p>Google Drive</p>
+      </div>
+      <div class="col-lg-3 projects">
+        <h3>Personal skills</h3>
+        <hr />
+        <p>Fast learner</p>
+        <p>Effective communicator</p>
+        <p>Intellectual curiosity</p>
+        <p>Organizational skills</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-2">
+        <a href="mailto:ndondzila@gmail.com"><i class="fas fa-envelope fa-4x contact"></i></a>
+        <h5>Email</h5>
+      </div>
+      <div class="col-lg-2">
+        <a href="https://www.linkedin.com/in/ndondzila"><i class="fab fa-linkedin fa-4x contact"></i></a>
+        <h5>LinkedIn</h5>
+      </div>
+      <div class="col-lg-2">
+        <a href="https://www.github.com/ndondzila"><i class="fab fa-github-square fa-4x contact"></i></a>
+        <h5>GitHub</h5>
+      </div>
+      <div class="col-lg-3"></div>
+    </div>
+    <br />
+
+    <div>
+      <p>
+        2020 Nicholas Dondzila.
+      </p>
+    </div>
+  </section>
+
+</body>
 
 </html>
